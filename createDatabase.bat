@@ -1,0 +1,2 @@
+mongo .\createDatabase.js
+PAUSE

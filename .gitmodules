@@ -1,0 +1,12 @@
+[submodule "client"]
+	path = client
+	url = ./client
+[submodule "common"]
+	path = common
+	url = ./common
+[submodule "documentation"]
+	path = documentation
+	url = ./documentation
+[submodule "server"]
+	path = server
+	url = ./server

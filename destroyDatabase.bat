@@ -1,0 +1,2 @@
+mongo .\destroyDatabase.js
+PAUSE
