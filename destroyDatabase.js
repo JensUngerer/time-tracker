@@ -10,6 +10,8 @@ db[routes.timeRecordsCollectionName].drop();
 
 db[routes.projectsCollectionName].drop();
 
+db[routes.timEntriesCollectionName].drop();
+
 db[routes.tasksCollectionName].drop();
 
 db.logout();

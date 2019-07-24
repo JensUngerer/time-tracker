@@ -11,6 +11,8 @@ db.createCollection(routes.tasksCollectionName);
 
 db.createCollection(routes.projectsCollectionName);
 
+db.createCollection(routes.timEntriesCollectionName);
+
 db.createCollection(routes.timeRecordsCollectionName);
 
 db.logout();
