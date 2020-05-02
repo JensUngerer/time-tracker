@@ -2,7 +2,7 @@
 
 let module = {};
 
-load('./common/typescript/routes.js');
+load('./../common/typescript/routes.js');
 
 conn = new Mongo();
 db = conn.getDB(routes.databaseName);
@@ -14,6 +14,8 @@ db.createCollection(routes.projectsCollectionName);
 db.createCollection(routes.timEntriesCollectionName);
 
 db.createCollection(routes.timeRecordsCollectionName);
+
+db.createCollection(routes.bookingDeclarationsCollectionName);
 
 db.logout();
 
