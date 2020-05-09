@@ -3,6 +3,12 @@ var module = {};
 
 load('./../common/typescript/routes.js');
 
+// DEBUGGING:
+// print(JSON.stringify(routes, null, 4));
+// print('-------')
+// print(routes.databaseName);
+// print('-----');
+
 conn = new Mongo();
 db = conn.getDB(routes.databaseName);
 
