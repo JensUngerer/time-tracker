@@ -20,6 +20,8 @@ db[routes.timEntriesCollectionName].drop();
 
 db[routes.tasksCollectionName].drop();
 
+db[routes.bookingDeclarationsCollectionName].drop();
+
 db.logout();
 
 conn.close();
