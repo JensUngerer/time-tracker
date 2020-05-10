@@ -1,6 +1,8 @@
 // https://stackoverflow.com/questions/25574826/how-to-requiremodule-in-mongo-shell 
 
-let module = {};
+let module = {
+    exports: {}
+};
 
 load('./../common/typescript/routes.js');
 
