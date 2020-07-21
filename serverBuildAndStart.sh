@@ -1,0 +1,1 @@
+./buildServer.sh && ./start.sh
