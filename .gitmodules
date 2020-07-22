@@ -1,16 +1,16 @@
 [submodule "client"]
 	path = client
-	url = https://github.com/JensUngerer/mean-time-tracker-client.git
+	url = https://github.com/JensUngerer/time-tracker-client.git
 	branch = master
 [submodule "common"]
 	path = common
-	url = https://github.com/JensUngerer/mean-time-tracker-common.git
+	url = https://github.com/JensUngerer/time-tracker-common.git
 	branch = master
 [submodule "documentation"]
 	path = documentation
-	url = https://github.com/JensUngerer/mean-time-tracker-documentation.git
+	url = https://github.com/JensUngerer/time-tracker-documentation.git
 	branch = master
 [submodule "server"]
 	path = server
-	url = https://github.com/JensUngerer/mean-time-tracker-server.git
+	url = https://github.com/JensUngerer/time-tracker-server.git
 	branch = master
