@@ -1,10 +1,10 @@
-# Mean-Time-Tracker
+# Time-Tracker
 
 ## Cloning and checkout of sub-modules
 ```bat
-set folderName=mean-time-tracker
+set folderName=time-tracker
 set gitCheckoutMaster=git checkout master
-git clone --recurse-submodules --remote-submodules https://github.com/JensUngerer/mean-time-tracker.git %folderName%
+git clone --recurse-submodules --remote-submodules https://github.com/JensUngerer/time-tracker.git %folderName%
 cd %folderName%
 cd .\client
 %gitCheckoutMaster%
@@ -20,7 +20,7 @@ cd .\server
 ```
 ## Create database collections (mongodb must be installed and running)
 ```bat
-set folderName=mean-time-tracker
+set folderName=time-tracker
 cd %folderName%
 cd database
 createDatabase.bat
@@ -28,7 +28,7 @@ createDatabase.bat
 
 ## Install dependencies
 ```bat
-set folderName=mean-time-tracker
+set folderName=time-tracker
 set npmInstall=npm install
 cd %folderName%
 cd .\client
