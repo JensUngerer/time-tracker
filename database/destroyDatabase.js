@@ -14,6 +14,8 @@ load('./../common/typescript/routes.js');
 conn = new Mongo();
 db = conn.getDB(routes.databaseName);
 
+db[routes.commitTimeRecordsCollectionName].drop();
+
 db[routes.timeRecordsCollectionName].drop();
 
 db[routes.projectsCollectionName].drop();

@@ -21,6 +21,8 @@ db.createCollection(routes.projectsCollectionName);
 
 db.createCollection(routes.timEntriesCollectionName);
 
+db.createCollection(routes.commitTimeRecordsCollectionName);
+
 db.createCollection(routes.timeRecordsCollectionName);
 
 db.createCollection(routes.bookingDeclarationsCollectionName);
