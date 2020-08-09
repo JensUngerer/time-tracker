@@ -1,1 +1,1 @@
-cd ./../client && npm run build
+cd ./../client && ng build --prod
