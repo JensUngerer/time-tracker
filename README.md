@@ -38,7 +38,7 @@ cd .\server
 %npmInstall%
 ```
 
-## Starting the Mean-Time-Tracker application
+## Starting the Time-Tracker application
 ```console
 start.bat
 ```
