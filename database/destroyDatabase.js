@@ -11,7 +11,7 @@ load('./../common/typescript/routes.js');
 // print(routes.databaseName);
 // print('-----');
 
-conn = new Mongo();
+conn = new Mongo(routes.url);
 db = conn.getDB(routes.databaseName);
 
 db[routes.commitTimeRecordsCollectionName].drop();

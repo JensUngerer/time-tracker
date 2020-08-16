@@ -1,2 +1,2 @@
-mongo .\destroyDatabase.js
+mongo .\destroyDatabase.js --port 27021
 PAUSE
