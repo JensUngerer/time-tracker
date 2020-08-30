@@ -17,3 +17,4 @@
 [submodule "serverNew"]
 	path = serverNew
 	url = https://github.com/JensUngerer/time-tracker-webpack-server.git
+	branch = master
