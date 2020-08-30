@@ -1,1 +1,1 @@
-cd ./../server && npm run build
+cd ./../server && npm run build:ci
