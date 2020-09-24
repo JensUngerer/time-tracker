@@ -1,1 +1,1 @@
-cd ./../client && ng build --prod
+cd ./../client && ng build --prod --optimization=false
