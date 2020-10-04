@@ -16,7 +16,7 @@ cd ..
 cd .\documentation
 %gitCheckoutMaster%
 cd ..
-cd .\server
+cd .\serverNew
 %gitCheckoutMaster%
 ```
 
