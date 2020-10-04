@@ -1,6 +1,7 @@
 # Time-Tracker
 
 ## Cloning and checkout of sub-modules
+
 ```bat
 set folderName=time-tracker
 set gitCheckoutMaster=git checkout master
@@ -18,7 +19,9 @@ cd ..
 cd .\server
 %gitCheckoutMaster%
 ```
+
 ## Create database collections (mongodb must be installed and running)
+
 ```bat
 set folderName=time-tracker
 cd %folderName%
@@ -27,6 +30,7 @@ createDatabase.bat
 ```
 
 ## Install dependencies
+
 ```bat
 set folderName=time-tracker
 set npmInstall=npm install
@@ -34,11 +38,12 @@ cd %folderName%
 cd .\client
 %npmInstall%
 cd ..
-cd .\server
+cd .\serverNew
 %npmInstall%
 ```
 
 ## Starting the Time-Tracker application
+
 ```console
 start.bat
 ```
