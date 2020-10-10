@@ -1,0 +1,1 @@
+cd .\..\client && ng build --prod --optimization=false && cd .\..\batch-scripts
