@@ -1,1 +1,1 @@
-cd .\..\client && ng build --prod --optimization=false --source-map=true && cd .\..\batch-scripts
+cd .\..\client && ng build --prod --source-map=true && cd .\..\batch-scripts
