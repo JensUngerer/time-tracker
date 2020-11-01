@@ -1,0 +1,1 @@
+node --inspect-brk ./../serverNew/dist/time-tracker-server.js

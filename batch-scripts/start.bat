@@ -1,1 +1,1 @@
-node ./../serverNew/dist/time-tracker-server.js
+node --inspect ./../serverNew/dist/time-tracker-server.js

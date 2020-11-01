@@ -1,0 +1,1 @@
+call .\buildServer.bat &&  call .\startBrk.bat

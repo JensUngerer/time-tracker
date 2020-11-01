@@ -1,1 +1,1 @@
-cd ./../serverNew && npm run build:ci && cd .\..\batch-scripts
+cd ./../serverNew && npm run build:dev && cd .\..\batch-scripts
