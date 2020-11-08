@@ -1,1 +1,1 @@
-call .\buildServer.bat &&  call .\startBrk.bat
+call .\buildServer.bat &&  call .\startBrk.bat & .\..\batch-scripts
