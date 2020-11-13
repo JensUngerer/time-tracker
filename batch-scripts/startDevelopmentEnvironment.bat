@@ -1,2 +1,1 @@
-call .\startClientDevelopmentEnvironment.bat
-call .\startServerDevelopmentEnvironment.bat
+call .\startClientDevelopmentEnvironment.bat & call .\startServerDevelopmentEnvironment.bat & cmd /k cd .\..\client
