@@ -1,2 +1,3 @@
+batch-scripts/node_modules/
 batch-scripts/*.csv
 batch-scripts/*.log
