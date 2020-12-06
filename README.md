@@ -58,6 +58,19 @@ cd .\client
 cd ..
 cd .\serverNew
 %npmInstall%
+cd ..
+cd .\common
+%npmInstall%
+```
+
+## Building
+
+```bat
+set folderName=time-tracker
+cd %folderName%
+cd .\batch-scripts
+.\buildServer.bat
+.\buildClient.bat
 ```
 
 ## Starting the Time-Tracker application
