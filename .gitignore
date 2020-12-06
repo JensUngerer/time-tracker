@@ -1,3 +1,5 @@
 batch-scripts/node_modules/
 batch-scripts/*.csv
 batch-scripts/*.log
+database/export/*_MONGO_EXPORT/
+database/dump/*_MONGO_DUMP/
