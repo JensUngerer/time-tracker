@@ -17,3 +17,6 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/JensUngerer/tt-server.git
+[submodule "user-management"]
+	path = user-management
+	url = https://github.com/JensUngerer/tt-user-management.git
