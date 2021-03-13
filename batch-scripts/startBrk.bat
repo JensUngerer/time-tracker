@@ -1,1 +1,1 @@
-node --inspect-brk ./../serverNew/dist/time-tracker-server.js
+CALL cd .\..\server && CALL npm run start:dev-windows
