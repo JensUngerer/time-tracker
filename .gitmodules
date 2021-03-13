@@ -10,10 +10,6 @@
 	path = documentation
 	url = https://github.com/JensUngerer/time-tracker-documentation.git
 	branch = master
-[submodule "serverNew"]
-	path = serverNew
-	url = https://github.com/JensUngerer/time-tracker-webpack-server.git
-	branch = master
 [submodule "server"]
 	path = server
 	url = https://github.com/JensUngerer/tt-server.git
