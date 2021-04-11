@@ -50,7 +50,7 @@ net:
   bindIp: 127.0.0.1
 ```
 
-In order to see this change in the ``mongod.cfg``, please restart ``mongod``:
+In order to see this change in the ``mongod.conf``, please restart ``mongod``:
 ``systemctl stop monogd`` and ``systemctl stop mongod``.
 
 ### Create database collections (Mongodb must be installed and running)
