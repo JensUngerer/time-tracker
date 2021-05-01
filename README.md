@@ -130,8 +130,7 @@ cd server
 cp -r ./dist /var/www/timeTracker/server
 chmod u+x /var/www/timeTracker/server/dist/tt-server.js
 cp .env /var/www/timeTracker/server/
-mkdir /var/www/timeTracker/server/logging
-touch /var/www/timeTracker/server/logging/timeTracker.log
+touch /var/log/time-tracker/timeTracker.log
 ```
 
 ```bash
