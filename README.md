@@ -154,8 +154,8 @@ Description=TheTimeTrackerServer
 [Service]
 ExecStart=/var/www/timeTracker/server/dist/tt-server.js
 Restart=always
-User=nobody
-# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+DynamicUser=yes
+LogsDirectory=time-tracker
 Group=nogroup
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
