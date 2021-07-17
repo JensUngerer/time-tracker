@@ -27,6 +27,8 @@ db.createCollection(routes.timeRecordsCollectionName);
 
 db.createCollection(routes.bookingDeclarationsCollectionName);
 
+db.createCollection(routes.sessionTimEntriesCollectionName);
+
 db.logout();
 
 conn.close();
