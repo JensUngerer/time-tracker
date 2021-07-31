@@ -190,7 +190,7 @@ ln -s /etc/nginx/sites-available/tt-http-reverse-proxy /etc/nginx/sites-enabled/
 ```
 
 ```bash
-touch /etc/nginx/sites-enabled/tt-reverse-proxy
+touch /etc/nginx/sites-available/tt-reverse-proxy
 ```
 
 ```config
