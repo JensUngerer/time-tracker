@@ -130,7 +130,7 @@ cd server
 cp -r ./dist /var/www/timeTracker/server
 chmod u+x /var/www/timeTracker/server/dist/tt-server.js
 cp .env /var/www/timeTracker/server/
-touch /var/log/time-tracker/timeTracker.log
+touch /var/log/timeTracker/timeTracker.log
 ```
 
 ```bash
@@ -155,7 +155,7 @@ Description=TheTimeTrackerServer
 ExecStart=/var/www/timeTracker/server/dist/tt-server.js
 Restart=always
 DynamicUser=yes
-LogsDirectory=time-tracker
+LogsDirectory=timeTracker
 Group=nogroup
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
